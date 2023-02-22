@@ -1,0 +1,23 @@
+/* increasing font size of the odd elements */
+button:nth-of-type(odd):hover{
+font-size: 30px;
+}
+
+/* changing font weight to bold when hovered on first button element */
+button:first-child:hover{
+    font-weight: bold;
+}
+/* changing background color to green on third button element when hovered */
+button:nth-of-type(3):hover{
+    background-color: green;
+}
+
+/* changing background color to yello on fifth button when clicked */
+button:nth-of-type(5):active{
+    background-color: yellow;
+}
+
+/* changing background color to gray for the even button elements which are disabled  */
+button:nth-of-type(even):disabled{
+    background-color: gray;
+}
